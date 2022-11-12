@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="rocket.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+</head>
+<body>
+    <nav>
+    <div id="first">
+            <div id="img">
+                <img src="imagenes/logo.24c25970fb09.png" id="first">
+            </div>
+        <div id="soso">
+            <h4 >SERVICES</h4>
+            <h4 class="h" >CONTACT</h4>
+            <h4 class="h">WAGTAIL COURSE</h4>
+        </div>
+    </div>
+    </nav>    
+    <section>
+        <div id="two">
+            <h1>Services</h1>
+            <h4>Services we can provide you</h4>
+        </div>
+        <article>
+            <a>
+                <img src="imagenes/nasa-n463SoeSiVY-unsplash.2e16d0ba.fill-573x369.jpg" alt="nasa" name="nasa">
+                <h3>
+                    cleaning
+                </h3>
+                <p>
+                    Rockets leaving and entering the atmosphere get dirty. We'll apply the industries best Windex.
+                </p>
+           </a> 
+        </article>
+        <article>
+            <a>
+                <img src="pablo-guerrero-pGXUwHZQ5eI-unsplas.2e16d0ba.fill-573x369.jpg" alt="pablo" name="pablo">
+                <h4>
+                    Fuelling
+                </h4>
+                <p>
+                    It'll cost you most to transport your rocket to us. But if it's here, we'll fuel it for you!
+                </p>
+           </a> 
+        </article>
+        <article>
+            <article>
+                <a>
+                    <img src="imagenes/spacex-MEW1f-yu2KI-unsplash.2e16d0ba.fill-573x369.jpg" alt="space" name="space">
+                    <h4>
+                        Fuelling
+                    </h4>
+                    <p>
+                        It'll cost you most to transport your rocket to us. But if it's here, we'll fuel it for you!
+                    </p>
+               </a> 
+            </article>
+        </article>
+    </section>
+    <footer>
+        <div>
+            <h2>
+                We'll take care of your rocket.
+            </h2>
+            <p>
+                We’ll treat your rocket as if it’s our own. Our standards are higher than the ISS's altitude. We also enjoy test driving your rocket before giving it back 😱
+            </p>
+            <a>
+                Contact us
+            </a>
+        </div>
+        <div>
+            <h4>LINKS</h4>
+            <a href="">services</a>
+            <a href=""> contact</a>
+            <a href="">Wagtail course</a>
+        </div>
+        <div>
+            <h4>CONTACT US</h4>
+            <p>Contact us anytime at
+                gary@totallyfakeemail.com</p>
+            <p>* All images from unsplash.com</p>    
+        </div>
+        <div>
+            <h4>HOURS</h4>
+            <p>Monday-Friday
+                <br> 
+                9pm - 5pm
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+css
+
+#img{
+    display: inline-block;
+    position: absolute;
+}
+
+h4{
+    display: inline-block;
+}
+
+#soso{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    font-family: 'Proxima nova', sans-serif;
+    color: rgba(0,0,0,.9);
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+nav{
+    padding: 37px 37px;
+    outline: 2px gray;
+
+}
+
+.h{
+    padding-left: 110px;
+}
